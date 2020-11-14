@@ -6,7 +6,12 @@ namespace Commander.Date
 {
     public class MockCommanderRepo : ICommanderRepo
     {
-       public IEnumerable<Command> GetAllCommands() 
+        public void CreateCommand(Command info)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IEnumerable<Command> GetAllCommands() 
        {
            var commands = new List<Command>
            {
@@ -22,5 +27,9 @@ namespace Commander.Date
             return new Command{Id=0, Howto="Boil an egg", Line ="Boil water", Platform = "kettle & Pan" };
         }
 
+        public bool saveChanges()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
