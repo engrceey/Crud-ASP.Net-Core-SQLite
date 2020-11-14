@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+0Uha9wAvcXFpeYVuXeTeF9jWseMkDjD+7f/oEfJj4GM1PKjdDQLMciyTCjcHkqx6pzK3FAa+fyJDA9eDgzjfA==",
+  "dgSpecHash": "4PgAvdgSQXX92oZWcCQKfp4ZMruCVgDSJlimkVlwAMw5zhtFYx3gWWtV6GS/8zHqZQcaKNrVly0/RHC1s6PuSw==",
   "success": true,
   "projectFilePath": "/Users/zurum/Desktop/Csharp/Commander/Commander.csproj",
   "expectedPackageFiles": [
+    "/Users/zurum/.nuget/packages/automapper/10.1.0/automapper.10.1.0.nupkg.sha512",
+    "/Users/zurum/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
     "/Users/zurum/.nuget/packages/google.protobuf/3.11.4/google.protobuf.3.11.4.nupkg.sha512",
     "/Users/zurum/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
@@ -79,7 +81,7 @@
     "/Users/zurum/.nuget/packages/system.net.sockets/4.1.0/system.net.sockets.4.1.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/system.objectmodel/4.0.12/system.objectmodel.4.0.12.nupkg.sha512",
     "/Users/zurum/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
-    "/Users/zurum/.nuget/packages/system.reflection.emit/4.0.1/system.reflection.emit.4.0.1.nupkg.sha512",
+    "/Users/zurum/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/system.reflection.emit.ilgeneration/4.0.1/system.reflection.emit.ilgeneration.4.0.1.nupkg.sha512",
     "/Users/zurum/.nuget/packages/system.reflection.emit.lightweight/4.0.1/system.reflection.emit.lightweight.4.0.1.nupkg.sha512",
     "/Users/zurum/.nuget/packages/system.reflection.extensions/4.0.1/system.reflection.extensions.4.0.1.nupkg.sha512",

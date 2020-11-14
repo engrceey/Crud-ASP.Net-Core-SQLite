@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Commander.Data;
 using Commander.Date;
 using Microsoft.AspNetCore.Builder;
@@ -32,7 +33,11 @@ namespace Commander
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
             services.AddDbContext<CommanderContext>(option => 
                                 option.UseSqlite(Configuration.GetConnectionString("Sqlite")));
+
+            object p = services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
+
+        
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
