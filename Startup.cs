@@ -29,7 +29,7 @@ namespace Commander
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+            services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
             services.AddDbContext<CommanderContext>(option => 
                                 option.UseSqlite(Configuration.GetConnectionString("Sqlite")));
         }
