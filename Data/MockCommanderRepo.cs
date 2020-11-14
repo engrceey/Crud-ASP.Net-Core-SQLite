@@ -31,5 +31,10 @@ namespace Commander.Date
         {
             throw new System.NotImplementedException();
         }
+
+        public void UpdateCommand(Command info)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
