@@ -4,7 +4,6 @@ namespace Commander.Dtos
 {
     public class CommandUpdateDto {
         
-        public int Id { get; set; }
         [Required]
         [MaxLength(250)]
         public string Howto { get; set; }

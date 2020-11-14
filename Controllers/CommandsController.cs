@@ -57,17 +57,31 @@ namespace Commander.Controllers
 
         }
 
-        [HttpPut("id")]
+        [HttpPut("{id}")]
         public ActionResult UpdateCommand(int id, CommandUpdateDto command) {
 
-            var commandNodelFromRepo = _repository.GetCommandById(id);
-            if(commandNodelFromRepo == null) {
+            var commandModelFromRepo = _repository.GetCommandById(id);
+            if(commandModelFromRepo == null) {
                 return NotFound();
             }
-            _mapper.Map(command, commandNodelFromRepo);
-            _repository.UpdateCommand(commandNodelFromRepo);
+            _mapper.Map(command, commandModelFromRepo);
+            _repository.UpdateCommand(commandModelFromRepo);
             _repository.saveChanges();
             return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult DeleteCommand(int id) {
+
+            var commandModelFromRepo = _repository.GetCommandById(id);
+            if(commandModelFromRepo == null) {
+                return NotFound();
+            }
+
+            _repository.DeleteCommand(commandModelFromRepo);
+            _repository.saveChanges();
+            return NoContent();
+
         }
     }
 }

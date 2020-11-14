@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4PgAvdgSQXX92oZWcCQKfp4ZMruCVgDSJlimkVlwAMw5zhtFYx3gWWtV6GS/8zHqZQcaKNrVly0/RHC1s6PuSw==",
+  "dgSpecHash": "ylUUTkVeX5ycbOjb6WRYVhF4L7kU54+PT/JxlRjd4chVlu+0EHOKVFy9XGSrhl5rggvflIHN1oKPYHuW/Fa1Hg==",
   "success": true,
   "projectFilePath": "/Users/zurum/Desktop/Csharp/Commander/Commander.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/Users/zurum/.nuget/packages/k4os.compression.lz4/1.1.11/k4os.compression.lz4.1.1.11.nupkg.sha512",
     "/Users/zurum/.nuget/packages/k4os.compression.lz4.streams/1.1.11/k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
     "/Users/zurum/.nuget/packages/k4os.hash.xxhash/1.0.6/k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "/Users/zurum/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.0/microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/microsoft.data.sqlite.core/5.0.0/microsoft.data.sqlite.core.5.0.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -40,6 +41,7 @@
     "/Users/zurum/.nuget/packages/mysql.data.entityframeworkcore/8.0.22/mysql.data.entityframeworkcore.8.0.22.nupkg.sha512",
     "/Users/zurum/.nuget/packages/mysqlconnector/1.1.0/mysqlconnector.1.1.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/netstandard.library/1.6.0/netstandard.library.1.6.0.nupkg.sha512",
+    "/Users/zurum/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
     "/Users/zurum/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/runtime.native.system.io.compression/4.1.0/runtime.native.system.io.compression.4.1.0.nupkg.sha512",
     "/Users/zurum/.nuget/packages/runtime.native.system.net.http/4.0.1/runtime.native.system.net.http.4.0.1.nupkg.sha512",

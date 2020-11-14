@@ -14,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 
 namespace Commander
 {
@@ -30,6 +31,7 @@ namespace Commander
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
             services.AddDbContext<CommanderContext>(option => 
                                 option.UseSqlite(Configuration.GetConnectionString("Sqlite")));

@@ -11,6 +11,11 @@ namespace Commander.Date
             throw new System.NotImplementedException();
         }
 
+        public void DeleteCommand(Command info)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<Command> GetAllCommands() 
        {
            var commands = new List<Command>
