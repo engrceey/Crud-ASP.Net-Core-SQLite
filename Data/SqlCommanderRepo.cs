@@ -21,7 +21,7 @@ namespace Commander.Data
             }
 
             _context.Commands.Add(info);
-            
+
         }
 
         public IEnumerable<Command> GetAllCommands()
@@ -38,5 +38,7 @@ namespace Commander.Data
         {
            return (_context.SaveChanges() >= 0);
         }
+
+        
     }
 }
